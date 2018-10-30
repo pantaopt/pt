@@ -1,0 +1,15 @@
+{
+    "applinks": {
+            "apps": [],
+            "details": [
+                {
+                    "appID": "AXN7MM93V4.com.blockchain.dev",
+                    "paths": ["/deaplink","*"]
+                },
+                {
+                    "appID": "ABCD1234.com.apple.wwdc",
+                    "paths": [ "*" ]
+                }
+            ]
+        }
+    }
