@@ -1,0 +1,114 @@
+<html lang="en">
+
+<head>
+  <meta name="apple-itunes-app" content="app-id=444934666" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <title>凌志软件移动平台</title>
+  <style type="text/css"> 
+  .notice{
+    text-align: center;
+    padding-top: 50px; 
+  }
+    .packContainer{
+        text-align: center;
+        padding-top: 50px;
+        background-color: blanchedalmond;
+        width: 100%;
+        height: 100%;
+    } 
+    .info{
+        padding: 5px 0;
+    }
+    .img{
+        width: 100px;
+        height: 100px;
+    }
+    .displayName{
+        font-size: 16px;
+        font-weight: 700;
+        color: #333;
+    }
+
+    .key{
+        font-size: 14px;
+    }
+    .button, .apkButton{
+        margin: 20px 0;
+        
+    }
+    .apkButton a{
+        background: #1682fb;
+        color: #fff;
+        padding: 7px 15px;
+        border: none;
+        border-radius: 3px;
+    }
+  </style> 
+</head>
+
+<script>
+    document.addEventListener('deviceready', function () {
+        alert('dddd');
+	    openApp('blockchainbclbasic://');
+    }, false);
+
+    /*
+    * 通过iframe唤起app
+    **/
+    function iframeWake (url) {
+        var c = document.createElement("div");
+        c.style.visibility = "hidden";
+        c.innerHTML = '<iframe src="' + url + '" scrolling="no" width="1" height="1"></iframe>';
+        document.body.appendChild(c);
+    }
+
+    var timeout;
+    var isAndroid;
+    var isiOS;
+
+    function preventPopup() {
+        clearTimeout(timeout);
+        timeout = null;
+        window.removeEventListener('pagehide', preventPopup);
+    }
+
+    function platform() {
+        var u = navigator.userAgent, app = navigator.appVersion;
+        isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //android终端或者uc浏览器 
+        isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端 
+    }
+
+    function openApp(appurl) {   
+        platform() 
+        if (isiOS) {
+            // alert('iOS');
+            window.location.href=appurl;
+            // window.location.reload();
+            setTimeout(function() {
+                window.location.href="http://itunes.apple.com/cn/app/qq-2011/id444934666?mt=8";
+            }, 500);
+        }
+        if (isAndroid) {
+            // alert('Android'); 
+        }
+        // alert('schemeurl: '+appurl);
+
+        // timeout = setTimeout(function() {
+        //         document.location = appstore;
+        // }, 500);
+        // window.addEventListener('pagehide', preventPopup);
+    } 
+</script>
+
+<body>
+    <div class='packContainer'>
+        <!-- <a href="javascript:;" onclick="openApp('blockchainbclbasic://');" >打开bclbasic</a> -->
+        <a href="https://www.eagledoc.cn" >https://www.eagledoc.cn</a>
+    </div>
+</body>
+
+
+</html>
