@@ -34,6 +34,7 @@
         .iconImg {
             width: 80px;
             height: 80px;
+            border-radius: 15px;
 
             position: fixed;
             margin: auto;
@@ -53,6 +54,19 @@
             left: 0;
             right: 0;
             top: 200px;
+        }
+
+        .releaseNotes {
+            width: 100%;
+            height: 60px;
+            color: 000000;
+            line-height: 30px;
+
+            position: fixed;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 260px;
         }
     </style>
 </head>
@@ -90,8 +104,11 @@
                 var iconSrc = appInfo["artworkUrl100"];
                 document.getElementById('icon').src = iconSrc;
 
-                var appNameText = appInfo["trackName"];
+                var appNameText = appInfo["trackName"]+'('+appInfo["version"]+')';
                 document.getElementById('appName').innerHTML = appNameText;
+
+                var releaseNotes = appInfo["releaseNotes"];
+                document.getElementById('releaseNotes').innerHTML = releaseNotes;
             }
         }
     }
@@ -148,6 +165,7 @@
     <div class='deepLinkContainer'>
         <img class="iconImg" id="icon">
         <div class="appName" id="appName">--</div>
+        <div class="releaseNotes" id="releaseNotes">--</div>
         <div class="installBtn" onclick="javascript:openApp()">
             Click to install
         </div>
