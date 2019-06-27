@@ -1,51 +1,105 @@
 <html lang="en">
 
 <head>
-  <meta name="apple-itunes-app" content="app-id=444934666" />
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="">
-  <title>Deeplink Page</title>
-  <style type="text/css"> 
-  .notice{
-    text-align: center;
-    padding-top: 50px; 
-  }
-    .deepLinkContainer{
-        text-align: center;
-        padding-top: 50px;
-        background-color: white;
-        width: 100%;
-        height: 100%;
-    } 
-    .installBtn{
-        background-color: 00AFEC;
-        color: white;
-        width: 100px;
-        height: 50px;
-        border-radius:5px;
-        line-height: 50px;
+    <meta name="apple-itunes-app" content="app-id=444934666" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <title>Deeplink Page</title>
+    <style type="text/css">
+        .deepLinkContainer {
+            text-align: center;
+            padding-top: 50px;
+            background-color: white;
+            width: 100%;
+            height: 100%;
+        }
 
-        position:fixed;
-        margin:auto;
-        left:0; 
-        right:0; 
-        bottom:100px;
-    }
-  </style> 
+        .installBtn {
+            background-color: 00AFEC;
+            color: white;
+            width: 150px;
+            height: 44px;
+            border-radius: 5px;
+            line-height: 44px;
+
+            position: fixed;
+            margin: auto;
+            left: 0;
+            right: 0;
+            bottom: 100px;
+        }
+
+        .iconImg {
+            width: 80px;
+            height: 80px;
+
+            position: fixed;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 100px;
+        }
+
+        .appName {
+            width: 100%;
+            height: 30px;
+            color: 000000;
+            line-height: 30px;
+
+            position: fixed;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 200px;
+        }
+    </style>
 </head>
 
-<script>
-    document.addEventListener('deviceready', function () {
-        alert('dddd');
-	    openApp('blockchainbclbasic://');
-    }, false);
+<script type="text/javascript">
+
+    window.onload = function () {
+        //somecode
+        getAppInfo(GetQueryString("id"))
+    }
+
+    function GetQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]); return null;
+    }
+
+    function getAppInfo(AppleID) {
+        //步骤一:创建异步对象
+        var ajax = new XMLHttpRequest();
+        //步骤二:设置请求的url参数,参数一是请求的类型,参数二是请求的url,可以带参数,动态的传递参数starName到服务端
+        ajax.open('post', 'http://itunes.apple.com/cn/lookup?id=' + AppleID);
+        //步骤三:发送请求
+        ajax.send();
+        //步骤四:注册事件 onreadystatechange 状态改变就会调用
+        ajax.onreadystatechange = function () {
+            if (ajax.readyState == 4 && ajax.status == 200) {
+                //步骤五 如果能够进到这个判断 说明 数据 完美的回来了,并且请求的页面是存在的
+                var response = JSON.parse(ajax.responseText);
+                var appInfos = response["results"];
+                var appInfo = appInfos[0];
+
+                console.log(appInfo);
+
+                var iconSrc = appInfo["artworkUrl100"];
+                document.getElementById('icon').src = iconSrc;
+
+                var appNameText = appInfo["trackName"];
+                document.getElementById('appName').innerHTML = appNameText;
+            }
+        }
+    }
 
     /*
-    * 通过iframe唤起app
-    **/
-    function iframeWake (url) {
+    // * 通过iframe唤起app
+    // **/
+    function iframeWake(url) {
         var c = document.createElement("div");
         c.style.visibility = "hidden";
         c.innerHTML = '<iframe src="' + url + '" scrolling="no" width="1" height="1"></iframe>';
@@ -68,15 +122,15 @@
         isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端 
     }
 
-    function openApp(appurl) {   
-        platform() 
+    function openApp() {
+        platform()
         if (isiOS) {
             // alert('iOS');
-            window.location.href=appurl;
+            // window.location.href = appurl;
             // window.location.reload();
-            setTimeout(function() {
-                window.location.href="http://itunes.apple.com/cn/app/qq-2011/id444934666?mt=8";
-            }, 500);
+            // setTimeout(function () {
+                window.location.href = "http://itunes.apple.com/cn/app/qq-2011/id"+GetQueryString("id")+"?mt=8";
+            // }, 500);
         }
         if (isAndroid) {
             // alert('Android'); 
@@ -87,13 +141,15 @@
         //         document.location = appstore;
         // }, 500);
         // window.addEventListener('pagehide', preventPopup);
-    } 
+    }
 </script>
 
 <body>
     <div class='deepLinkContainer'>
-        <div class="installBtn">
-            点击安装
+        <img class="iconImg" id="icon">
+        <div class="appName" id="appName">--</div>
+        <div class="installBtn" onclick="javascript:openApp()">
+            Click to install
         </div>
     </div>
 </body>
