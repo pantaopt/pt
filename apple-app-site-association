@@ -7,5 +7,6 @@
                     "paths": [ "*" ]
                 }
             ]
-        }
+        },
+        "Content-type": "application/pkcs7-mime"
     }
