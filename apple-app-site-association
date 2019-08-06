@@ -5,10 +5,6 @@
                 {
                     "appID": "AXN7MM93V4.io.blockchainlock.bclbasic",
                     "paths": [ "*" ]
-                },
-                {
-                    "appID": "ABCD1234.com.apple.wwdc",
-                    "paths": [ "*" ]
                 }
             ]
         }
