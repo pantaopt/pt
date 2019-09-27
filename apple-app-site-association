@@ -3,7 +3,7 @@
             "apps": [],
             "details": [
                 {
-                    "AXN7MM93V4": "io.blockchainlock.bclbasic",
+                    "appID": "AXN7MM93V4.io.blockchainlock.bclbasic",
                     "paths": [ "*" ]
                 },
                 {
