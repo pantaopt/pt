@@ -1,4 +1,7 @@
 {
+  "appclips": {
+       "apps": [ "AXN7MM93V4.com.blockchain.dev.Clip" ]
+   },
   "applinks": {
     "apps": [
       
@@ -17,8 +20,5 @@
         ]
       }
     ]
-  },
-  "appclips": {
-       "apps": ["AXN7MM93V4.com.blockchain.dev.Clip"]
-   }
+  }
 }
