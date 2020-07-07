@@ -89174,13 +89174,12 @@ K.azf.prototype={
 $2:function(a,b){var s
 P.H("state: ")
 P.H(b)
-if(b instanceof O.hz){s=b.a
-P.H("state.eventName,,: "+s)
-if(s==="LoginEvent"){s=this.a
+if(b instanceof O.hz){P.H("state.eventName,,: "+b.a)
+s=this.a
 s.iL()
 V.ac(Z.h("login_success",null))
 J.e7(R.bU(a,t.xE),new L.rT(!0))
-N.ld(s)}}else if(b instanceof O.lo)N.ld(this.a)},
+N.ld(s)}else if(b instanceof O.lo)N.ld(this.a)},
 $S:15}
 K.aze.prototype={
 $2:function(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g=null,f=4278349202,e=4286568438,d=$.j,c=d.b
