@@ -1,0 +1,53 @@
+{
+  "code":"0",
+  "msg":"success",
+  "data":{
+    "currPage":1,
+    "pageSize":30,
+    "totalCount":1,
+    "totalPage":1,
+    "list":[
+      {
+        "orgId":"5dc02d9557a9445018f12610",
+        "unitId":"5e1ed1bcbb2f0c15eb31dd6e",
+        "customerNum":0,
+        "adultNum":0,
+        "childNum":0,
+        "maleNum":0,
+        "femaleNum":0,
+        "checkin":0,
+        "checkout":0,
+        "unitNo":"wjf_入金测试_独占_无plan",
+        "unitImg":"https://eco.blockchainlock.io/test/download/img//bacs/5dc02d9557a9445018f12610/place/img/20200115/5e1ed17cbb2f0c15eb176aa6.jpg",
+        "unitName":"wjf_入金测试_独占_无plan",
+        "lendTerm":"day",
+        "businessType":"housing",
+        "unitTypeActive":0,
+        "unitNum":1,
+        "commodityPrice":"100",
+        "placeLat":0,
+        "placeLong":0,
+        "placeDesc":"wjf_place_入金测试_无plan_02",
+        "limitNum":3,
+        "minTermNum":0,
+        "priceTax":1,
+        "taxRate":0.1,
+        "availableTimeList":[
+
+        ],
+        "unitPriceTax":0,
+        "unitLendingMax":0,
+        "unitCurrentNum":0,
+        "startTime":0,
+        "endTime":0,
+        "stockType":0,
+        "subscriptionList":[
+
+        ],
+        "releaseType":0,
+        "retainApproval":0,
+        "verifyLevel":0
+      }
+    ]
+  }
+}

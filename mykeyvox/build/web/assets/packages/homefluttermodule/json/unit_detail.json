@@ -1,0 +1,69 @@
+{
+  "code":"0",
+  "msg":"success",
+  "data":{
+    "orgId":"5dc02d9557a9445018f12610",
+    "placeId":"5e1ed159bb2f0c15eb825a88",
+    "placeName":"wjf_place_入金测试_无plan_02",
+    "placeAddress":"1",
+    "placeTelephone":"1",
+    "placeLat":35.6761,
+    "placeLong":139.6503,
+    "unitId":"5e1ed196bb2f0c15eb31dd69",
+    "unitNo":"wjf_入金测试_独占_无plan",
+    "unitName":"wjf_入金测试_独占_无plan",
+    "unitDesc":"wjf_入金测试_独占_无plan",
+    "unitImgDefault":"https://eco.blockchainlock.io/test/download/img//bacs/5dc02d9557a9445018f12610/place/img/20200115/5e1ed17cbb2f0c15eb176aa6.jpg",
+    "unitPrice":100,
+    "unitLendingUnit":"day",
+    "deviceNum":0,
+    "unitPublic":1,
+    "unitState":"I",
+    "unitLendingType":"lend",
+    "unitLendingName":"wjf_入金测试_独占_无plan",
+    "unitLendingTerm":1,
+    "unitLendingMin":0,
+    "unitLendingMax":0,
+    "unitPriceTax":1,
+    "unitLimitNum":2,
+    "unitCurrentNum":1,
+    "reserveApproval":0,
+    "unitActive":1,
+    "unitTypeId":"base-unit",
+    "unitImgList":[
+      "https://eco.blockchainlock.io/test/download/img//bacs/5dc02d9557a9445018f12610/place/img/20200115/5e1ed17cbb2f0c15eb176aa6.jpg"
+    ],
+    "deviceList":[
+
+    ],
+    "supportList":[
+      {
+        "supportCode":"AirConditiner",
+        "supportName":"空调",
+        "imgUrl":"https://eco.blockchainlock.io/test/download/img//bacs/5dc02d9557a9445018f12601/user/img/20200110/5e17ec3ebb2f0c2835d49ebb.png"
+      },
+      {
+        "supportCode":"FreeWIFI",
+        "supportName":"Wi-Fi",
+        "imgUrl":"https://eco.blockchainlock.io/test/download/img//bacs/5dc02d9557a9445018f12601/user/img/20200110/5e17ec98bb2f0c2835d49ebf.png"
+      }
+    ],
+    "unavailableTimeList":[
+
+    ],
+    "cleanTimeList":[
+
+    ],
+    "availableTimeList":[
+
+    ],
+    "subscriptionList":[
+
+    ],
+    "unitBusinessType":"housing",
+    "reserveIntervalNum":0,
+    "stockType":0,
+    "verifyLevel":2,
+    "qrUrl":"http://210.13.123.226:8008/download/img/account/share/qrcode/202001151753000509033551177.png"
+  }
+}

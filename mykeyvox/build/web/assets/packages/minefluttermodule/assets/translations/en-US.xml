@@ -1,0 +1,976 @@
+<resources>
+    <string name="app_name">Keyvox Go</string>
+    <string name="app_name_debug">Keyvox Go-Test</string>
+
+    <!-- 00000000000000000000000000 Base-->
+    <string name="can_not_find_version_name">Can not find version name!</string>
+    <string name="can_not_find_module">Can not find module!</string>
+    <string name="str_register_fail">Register module fail!</string>
+    <string name="cancel">cancel</string>
+    <string name="continuing">continue</string>
+    <string name="confirm">confirm</string>
+    <string name="permission_apply">permission apply</string>
+    <string name="external_storage_not_exist">external storage not exist</string>
+    <string name="loading">Loading...</string>
+    <string name="layout_empty">No Data</string>
+    <string name="load_error_title">data load error</string>
+    <string name="load_error">please check your internet then click to load again</string>
+    <string name="alert_title">Notice</string>
+    <string name="setting">settings</string>
+    <string name="permission_rationale">PermissionRationale</string>
+    <string name="bluetooth_rationale">Your app will not be able to use Bluetooth properly without
+        location permissions!
+    </string>
+    <string name="notification_error_ssl_cert_invalid">notification error ssl cert invalid</string>
+    <string name="router_path_is_not_module">The routing address does not belong to the address of
+        Module.
+    </string>
+    <string name="parse_json_error">Parse JSON error or server return empty JSON</string>
+    <string name="service_not_available">Service temporarily unavailable</string>
+    <string name="unknown_error">unknown error</string>
+    <string name="network_error">Network access error</string>
+    <string name="server_timeout">server time-out</string>
+    <string name="server_error_pls_retry">The server is abnormal. Please try again later.</string>
+    <string name="connect_timeout">connection timed out</string>
+    <string name="cannot_connect_server">Unable to connect to server</string>
+    <string name="app_background">Application in background</string>
+    <string name="app_forground">Application is at the front desk.</string>
+    <string name="footer_loading">Loading</string>
+    <string name="no_more_data">No more content.</string>
+    <string name="should_init">You must initialize it.</string>
+    <string name="downloading">downloading...</string>
+    <string name="notice">Tips</string>
+    <string name="empty_data">Empty data can not generate two-dimensional code.!</string>
+    <string name="no_permission_of_read_file">You do not open file read and write permission.
+    </string>
+    <string name="no_permission_of_camera">You did not open the camera privileges.!</string>
+    <!-- 00000000000000000000000000 Base-->
+
+    <!-- 11111111111111111111111111 Login-->
+    <string name="rename">Rename</string>
+    <string name="account_setting">Account Setting</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="language">Language</string>
+    <string name="exit_account">LOGOUT</string>
+    <string name="user_name">User Name</string>
+    <string name="pls_input_user_name">Please input your account name</string>
+    <string name="name">Name</string>
+    <string name="pls_input_name">Please input your name</string>
+    <string name="email">Email</string>
+    <string name="pls_input_email">please input your email</string>
+    <string name="email_format_error">wrong email format</string>
+    <string name="vcode">verify code</string>
+    <string name="pls_input_vcode">Input Verify Code</string>
+    <string name="get_vcode">Get verifty code</string>
+    <string name="complete_info_dsc">ATTENTION：1. If you have filled your account name，you can login
+        with it ，or you can only login with your mobile number. 2. If you lost your mobile, we can
+        verify your identity with your email. 3. If you select to skip, you can fill your personal
+        info in "Mine"-"Personal info".
+    </string>
+    <string name="commit">commit</string>
+    <string name="input_mobile_vcode">Input Verify Code</string>
+    <string name="mobile_no">Phone Number</string>
+    <string name="pls_input_mobile_no">Input your mobile No.</string>
+    <string name="use_email_to_find_pwd">Get back your password with email</string>
+    <string name="input_email_vcode">Input Verify Code</string>
+    <string name="use_mobile_to_find_pwd">Get back your password with mobile</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="input_pwd">Input password</string>
+    <string name="pls_input_pwd">Please input password</string>
+    <string name="pls_input_pwd_toast">Please input password</string>
+    <string name="confirm_pwd">Confirm Pwd</string>
+    <string name="pls_input_pwd_again">Input password again</string>
+    <string name="account">ACCOUNT</string>
+    <string name="user_name_or_mobile">Account or Mobile Number</string>
+    <string name="forget_pwd">Forget Password?</string>
+    <string name="new_user_name">New user name</string>
+    <string name="input_mobile_no">Input phone number</string>
+    <string name="register_mobile_dsc">Phone number is used to login and get back your password
+    </string>
+    <string name="send_code_hint">Send verify code via SMS to the Phone number,\nand type in the
+        code in the next page.
+    </string>
+    <string name="china86">China(+86)</string>
+    <string name="japan81">Japan(+81)</string>
+    <string name="new_lock_name">new lock name</string>
+    <string name="pls_input_new_lock_name">please input new lock name</string>
+    <string name="language_auto">Auto</string>
+    <string name="zh">Chinese</string>
+    <string name="ja">Japanese</string>
+    <string name="en">English</string>
+    <string name="server_error">Server error：</string>
+    <string name="select_country_area">Select Country/Area code</string>
+    <string name="vcode_has_sent">verify code sent</string>
+    <string name="send_vcode">Send verify code</string>
+    <string name="has_send">Send（</string>
+    <string name="two_pwd_not_same">The two password must be consistent</string>
+    <string name="login_success">Login succeed</string>
+    <string name="pls_input_account">Please input your account</string>
+    <string name="press_again_to_exit">Press back again to exit</string>
+    <string name="modify_info">Modify Info</string>
+    <string name="new_name">new name</string>
+    <string name="new_email">new email address</string>
+    <string name="china">China</string>
+    <string name="japan">Japan</string>
+    <string name="hongkong">HongKong</string>
+    <string name="usa">USA</string>
+    <string name="complete">Complete</string>
+    <string name="complete_info">Complete personal info</string>
+    <string name="setting_success">setup succeed</string>
+    <string name="reset_pwd_success">Reset password success，please use new password to login
+    </string>
+    <string name="pwd_at_least_6">Your password must contains more than 6 characters.</string>
+    <string name="pwd_must_letter_and_digit">Your password must contains at least a letter and a
+        numbers.
+    </string>
+    <string name="phone_login">Mobile number login</string>
+    <string name="username_login">Username login</string>
+    <string name="bcl_account">BCL Account</string>
+    <string name="send_vcode_again">Send verify code again</string>
+    <!-- 11111111111111111111111111 Login end-->
+
+    <!-- 22222222222222222222222222 ble start-->
+    <string name="lock_command_success">success</string>
+    <string name="lock_command_error">fail</string>
+    <string name="lock_command_repeat_id">ID repetition</string>
+    <string name="lock_command_repeat_password">Password repetition</string>
+    <string name="lock_command_invalid_id">invalid id</string>
+    <string name="lock_command_delete_user_fail">Delete user failure</string>
+    <string name="lock_command_wrong_data_length">Data dataLength error</string>
+    <string name="lock_command_cache_full">Data cache full.</string>
+    <string name="lock_command_wrong_data_format">dataContent in wrong format</string>
+    <string name="lock_command_data_complete">Data completion</string>
+    <string name="position_not_correct">Incorrect location。position=%1$d, limit=%2$d,
+        dataLength=%3$d
+    </string>
+    <string name="position_out_of_boundery">Position transboundary。position=%1$d, limit=%2$d,
+        required=%3$d
+    </string>
+    <string name="unsupported_type">Unsupported dataContent types:</string>
+    <string name="field_length_not_defined">Field dataLength not defined，fieldName=</string>
+    <string name="device_not_found">No equipment found.</string>
+    <string name="scan_device">Scanning equipment</string>
+    <string name="connect_device">Connection equipment</string>
+    <string name="disconnect_device">Disconnect equipment</string>
+    <!-- 22222222222222222222222222 ble end-->
+
+    <string name="RoomNo">RoomNo:</string>
+    <string name="RoomList">RoomList</string>
+    <string name="openDoor">Open Door</string>
+    <string name="ShowPassword">ShowPassword</string>
+    <string name="Detail">Detail</string>
+    <string name="please_connect_device">Please connect device</string>
+    <string name="scan_timeout">Scan Timeout,please try again!</string>
+    <string name="unlock_success">unlock success</string>
+    <string name="unlock_fail">unlock fail</string>
+    <string name="unlocking">unlocking</string>
+    <string name="password_cannot_be_empty">Password cannot be empty</string>
+    <string name="checkin_time">Checkin time:</string>
+    <string name="checkout_time">Checkout time:</string>
+    <string name="checkin">Checkin:</string>
+    <string name="checkout">Checkout:</string>
+    <string name="order_no">OrderNo:</string>
+    <string name="history_record">History Record</string>
+    <string name="Connect">Connect</string>
+    <string name="DisConnect">Disconnected</string>
+    <string name="currency">$</string>
+    <string name="connecting">Connecting</string>
+    <string name="scanning">Scanning</string>
+    <string name="connect_fail">Connect fail</string>
+    <string name="open_lock">the door is opening</string>
+
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="refreshing_ble">refreshing Ble</string>
+    <string name="no_more">No More Data！</string>
+    <string name="room_not_found">Room not found,please wait for bluetooth scan,refresh room list,or
+        select other room
+    </string>
+    <string name="read_permission_hint">The current application lacks the necessary read and write
+        permission.\n\n Please click "Settings" - "permission management" - open the read/write
+        permissions!
+    </string>
+    <string name="location_permission_hint">The current application lacks the necessary location
+        privileges to use Bluetooth.\n\n Please click "Settings" - "permission management" - open
+        the location permissions!
+    </string>
+    <string name="read_rationale">You must allow read and write permission to use the app</string>
+
+    <string name="order_unpaid">Order Unpaid</string>
+    <string name="order_no_new">Order No:</string>
+    <string name="order_type">Order Category:</string>
+    <string name="order_create_time">Order Created Time:</string>
+    <string name="order_store_address">MerChant Address:</string>
+
+    <string name="order_bill_no">Bill No:</string>
+    <string name="order_checkin_time">Checkin Time:</string>
+    <string name="order_checkout_time">Checkout Time:</string>
+    <string name="order_contact">Order Contact:</string>
+    <string name="set_pwd_success">Set Password Succeed</string>
+    <string name="verify_pwd_success">Password correct</string>
+
+    <string name="order_not_pay">Unpaid</string>
+    <string name="order_history">Order History</string>
+    <string name="goto_pay">Go to Pay</string>
+    <string name="order_detail">Order Detail</string>
+    <string name="pay">Pay</string>
+    <string name="need_pay">(To Pay)</string>
+    <string name="pay_status">pending</string>
+    <string name="is_newest_version">This is the latest version</string>
+    <string name="canceled">Canceled</string>
+
+    <string name="press_backkey_again_to_exit">Press back key again to exit!</string>
+    <string name="user_not_exist">ser not exist</string>
+    <string name="tab_assets">Home</string>
+    <string name="tab_discover">Discover</string>
+    <string name="tab_profile">Me</string>
+
+    <string name="system_settings">Settings</string>
+    <string name="service_protocol">KEYVOX Service Agreement</string>
+
+    <string name="manage_wallet">Wallet Management</string>
+    <string name="import_wallet">Import Wallet</string>
+    <string name="save">Save</string>
+    <string name="wallet_name">Wallet Name</string>
+    <string name="change_pwd">Modify Password</string>
+    <string name="export_private_key">Export Private Key</string>
+    <string name="export_key_store">Export Keystore</string>
+    <string name="keep_remember_words">Backup Mnemonics</string>
+    <string name="tx_record">Transaction Record</string>
+    <string name="msg_center">Message Center</string>
+    <string name="version_no">Version Number</string>
+
+    <string name="my_apps">My Apps</string>
+    <string name="add_watch_wallet">Add Watch Wallet</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="favorites">Favorites</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="send">Send</string>
+    <string name="receive">Collect</string>
+    <string name="choose_language">Choose Language</string>
+
+    <string name="key_box">Keybox</string>
+    <string name="bills">Bill</string>
+    <string name="search_hotels">Search</string>
+    <string name="hotel_manage">Owner</string>
+    <string name="title_transactions">Transaction</string>
+    <string name="agree_terms">I agree to the terms in this Service Agreement</string>
+
+    <string name="create_wallet">Create Wallet</string>
+    <string name="reset_wallet">Reset Wallet</string>
+    <string name="restore_wallet">Restore Wallet</string>
+
+    <string name="create_wallet_sub_title">Create pin for your wallet</string>
+    <string name="usage_hint_1">This PIN number is used to protect private keys and for transaction
+        authorization.
+    </string>
+    <string name="usage_hint_2">Please remember that the KEYVOX Wallet does not store PIN numbers,
+        and therefore it cannot help recover your forgotten PIN number.
+    </string>
+
+    <string name="password">Password</string>
+    <string name="repeat_password">Repeat Password</string>
+
+    <string name="export_once">Can only be exported once</string>
+    <string name="export_hint">The mnemonic can only be exported once. After the user confirms that
+        the mnemonic is correct and manually backed up, the wallet will no longer provide the export
+        mnemonic function.
+    </string>
+    <string name="next">Next</string>
+
+    <string name="confirm_mnemonic">Confirm Mnemonic</string>
+    <string name="confirm_mnemonic_title">Confirm your wallet mnemonic</string>
+    <string name="confirm_mnemonic_hint">Please enter the words at these positions to confirm that
+        your backup mnemonic is correct.
+    </string>
+
+    <string name="word_1">Word 1</string>
+    <string name="word_4">Word 4</string>
+    <string name="word_7">Word 7</string>
+
+    <string name="enter_mnemonic_title">Enter your wallet mnemonic</string>
+    <string name="enter_mnemonic_hint">Please enter a wallet mnemonic for wallet recovery</string>
+
+    <string name="main_wallet">Main Wallet</string>
+    <string name="imported_wallet">Imported Wallet</string>
+    <string name="observe_wallet">Observation Wallet</string>
+
+    <string name="currency_unit">Currency unit</string>
+    <string name="notify_enable">Allow Push Notifications</string>
+
+    <string name="pay_confirm_title">Payment confirmation</string>
+    <string name="enter_pin">Please enter PIN number</string>
+    <string name="transfer_address_same">The receiver\'s address cannot be sender\'s address
+    </string>
+    <string name="empty_transfer_number">Transfer amount is 0</string>
+    <string name="protocol">Thanks for choosing KEYVOX service. "KEYVOX Service Agreement will be
+        signed by KEYVOX foundation and users.This agreement has the legal effect of a contract
+        between you and KEYVOX foundation. In particular, we remind you that before using KEYVOX
+        (hereinafter referred to as "KEYVOX" or "this software"), please carefully read the KEYVOX
+        Service Agreement and the relevant agreements mentioned later, especially the provisions of
+        this agreement such as "exemption and limitation of liability" that are embodied in a bold
+        form to ensure that you fully understand the provisions of this agreement.
+    </string>
+
+    <string name="notificationInfo">Notification Info</string>
+    <string name="Prompt">Prompt</string>
+    <string name="ok">好的</string>
+
+    <string name="srl_header_pulling">Pull Down To Refresh</string>
+    <string name="srl_header_release">Release To Refresh</string>
+    <string name="srl_header_refreshing">Wait For Loading…</string>
+    <string name="srl_header_loading">Loading…</string>
+    <string name="srl_header_finish">Refresh Success</string>
+    <string name="srl_header_failed">Refresh Failed</string>
+    <string name="srl_header_update">\'Last Update\' M-d HH:mm</string>
+    <string name="srl_header_secondary">Release To Second Floor</string>
+
+    <string name="srl_footer_pulling">Pull Up To Load More</string>
+    <string name="srl_footer_release">Release To Load More</string>
+    <string name="srl_footer_loading">Loading…</string>
+    <string name="srl_footer_refreshing">Wait For Refreshing…</string>
+    <string name="srl_footer_finish">Load Success</string>
+    <string name="srl_footer_failed">Load Failed</string>
+    <string name="srl_footer_nothing">No More Data</string>
+
+    <string name="srl_content_empty">The content view in SmartRefreshLayout is empty. Do you forget
+        to add it in xml layout file?
+    </string>
+    <string name="srl_component_falsify" formatted="false">%s falsify area,\n Represents the
+        height[%.1fdp] of drag at run time,\n It does not show anything.
+    </string>
+    <!--Not Translated-->
+    <string name="keystore_dsc">Observing the wallet does not need to import the private key or
+        KeyStore, only import the wallet address, and perform daily viewing of accounts,
+        transactions, and receiving notifications.
+    </string>
+    <string name="wallet_address">Wallet address</string>
+    <string name="add">Add</string>
+    <string name="receiver_address">Payee wallet address</string>
+    <string name="bcl_amount">%1$s Amount</string>
+    <string name="gas_price">Gas Price</string>
+    <string name="cheaper">Cheaper</string>
+    <string name="faster">Faster</string>
+    <string name="save_offline">Save Offline</string>
+    <string name="save_dsc">Please copy and paste the Keystore file to a safe, offline location. Do
+        not save to email, notepad, web, chat, etc., very dangerous
+    </string>
+    <string name="trans_dsc">Do not use network transmission</string>
+    <string name="trans_dsc_value">Negotiable network accessory tool jacket Keystore civil case,
+        once the creation of a tower can not be built Income assets loss. Construction line
+        detachment line installation facility.
+    </string>
+    <string name="pwd_save_dsc">Preserved</string>
+    <string name="pwd_save_dsc_value">Safety preservation for exorbitant democracy, security for
+        junior high school students, etc. Highly advanced 1Password etc. Secretly preservation of
+        goods Keystore.
+    </string>
+    <string name="copy_keystore">Replicate keystore</string>
+    <string name="copy_privatekey">Copy private key</string>
+    <string name="copy_keystore_dsc">Copy and paste the contents of the Ethereum official wallet
+        keystore file directly to the input box.
+    </string>
+    <string name="keystore_text">Keystore text content</string>
+    <string name="keystore_pwd">Keystore password</string>
+    <string name="current_pwd">Current password</string>
+    <string name="new_pwd">New password</string>
+    <string name="re_new_pwd">Repeat new password</string>
+    <string name="copy_receive_code">Copy receipt code</string>
+    <string name="transaction_sent">The transaction has been sent, excuting</string>
+    <string name="transaction_wrote">The transaction was successfully written to the blockchain
+    </string>
+    <string name="expect_time">Expected to transfer success in 15-60 seconds</string>
+    <string name="sender">Sending person</string>
+    <string name="receiver">Receipt person</string>
+    <string name="gas_fee">Gas fee</string>
+    <string name="transaction_no">Transaction number</string>
+    <string name="block">Block</string>
+    <string name="transaction_time">Tansaction time</string>
+    <string name="cancel_transfer">Cancel transfer</string>
+    <string name="modify_transaction">Modify transaction</string>
+    <string name="no_record">No records</string>
+    <string name="delete_wallet">Delete wallet</string>
+    <string name="add_observable_address">Add observable address</string>
+    <string name="wallet_already_exists">Wallet already exists on this device</string>
+    <string name="wallet_name_exists">Duplicate wallet name</string>
+    <string name="wallet_name_empty">Wallet name cannot be empty</string>
+    <string name="wallet_address_empty">Wallet address cannot be empty</string>
+    <string name="app_crash">Sorry, the program encountered an exception and is about to quit!
+    </string>
+    <string name="login_first">Please login first</string>
+    <string name="bcl_transfer">BCL transfer</string>
+    <string name="transfer_amount_illegal">Insufficient account balance</string>
+    <string name="history">History</string>
+    <string name="not_backup">(Not backed up)</string>
+    <string name="copy_success">Copy success!</string>
+    <string name="skip">Skip</string>
+    <string name="verify_failed">Verification failed!</string>
+    <string name="export_failed">Export failed!</string>
+    <string name="set_trasaction_amount">Please set the transaction amount!</string>
+    <string name="set_gas_price">Pleaser set gas price</string>
+    <string name="pwd_error">Password error</string>
+    <string name="cover_dsc">There is some unconfirmed data, cancel current transfer? If not
+        canceled, it will overwrite the last data
+    </string>
+    <string name="cover_transfer">Coverage transfer</string>
+    <string name="server_error_pls_contact">There is a problem with the server, please contact
+        customer service
+    </string>
+    <string name="pwd_not_same">The password entered twice does not match</string>
+    <string name="create_wallet_fail">Create wallet failed</string>
+    <string name="cannot_same_name">Can not duplicate the name of an existing wallet</string>
+    <string name="load_wallet_fail">Failed to load wallet</string>
+    <string name="secure_warning">Security Warning The private key is not encrypted and the export
+        is at risk. It is recommended to use the mnemonic and Keystore for backup.
+    </string>
+    <string name="search">Search</string>
+    <string name="modify_pwd">Change Password</string>
+    <string name="pls_complete">Please complete</string>
+    <string name="new_pwd_must_diff">The new password cannot be the same as the current password
+    </string>
+    <string name="current_pwd_error">Current password error</string>
+    <string name="save_error">Save error</string>
+    <string name="modify_success">Change success</string>
+    <string name="function_not_suppport">Function is not yet open</string>
+    <string name="receive_code">Receipt code</string>
+    <string name="share_code">Share QR code</string>
+    <string name="mnemonic_format_error">Mnemonic format error!</string>
+    <string name="input_wallet_error">Please enter the correct wallet address</string>
+    <string name="gas_price_zero">Gas price can not be zero</string>
+    <string name="not_support_eth">ETH not supported yet</string>
+    <string name="bcl_transfer_confirm">BCL transfer confirmation</string>
+    <string name="finish">Finish</string>
+    <string name="backup_mnemonic">Backup mnemonic</string>
+    <string name="import_success">Import success</string>
+    <string name="show_pin">SHOW PIN</string>
+    <string name="pending_transaction">Pending Transaction</string>
+    <string name="pay_now">PAY NOW</string>
+    <string name="more_options">More Options</string>
+    <string name="check_out">CHECK OUT</string>
+    <string name="check_in">CHECK IN</string>
+    <string name="check_in_online">CHECK IN</string>
+
+    <!--new 2019 01 29-->
+    <string name="air_conditioner">AIR\nCONDITIONER</string>
+    <string name="keybox">Keybox</string>
+    <string name="reserve_warning">The current wallet was monitored as a merchant\'s wallet for the
+        hotel,no room will be available for this wallet user.
+    </string>
+    <string name="connected">Connected</string>
+
+    <string name="paying">Sending...</string>
+    <string name="add_favor_succecss">Added to your collections</string>
+    <string name="cancel_favor_success">Removed from your collections</string>
+
+    <string name="service_charge">Service Charge</string>
+
+    <string name="take_from_gallary">Choose from gallery</string>
+    <string name="take_photo">Take a photo</string>
+    <string name="room_no">Suite No: %1$s</string>
+
+
+    <!--KYC-->
+    <string name="kyc_first_name">First Name</string>
+    <string name="kyc_last_name">Last Name</string>
+    <string name="kyc_country">Country</string>
+    <string name="kyc_birthday">Birthday</string>
+    <string name="kyc_postal_code">Postal Code</string>
+    <string name="kyc_phone_no">Phone No</string>
+    <string name="kyc_name">Name</string>
+    <string name="kyc_sex">Gender</string>
+    <string name="kyc_type">Document type</string>
+    <string name="kyc_number">ID number</string>
+
+    <string name="kyc_start">Identity verification Information</string>
+    <string name="kyc_retry">RETRY KYC</string>
+
+    <string name="kyc_status">KYC Status</string>
+    <string name="kyc_no">NO KYC</string>
+    <string name="kyc_success">KYC Success</string>
+    <string name="kyc_in_review">In review</string>
+    <string name="kyc_fail">KYC failure</string>
+
+    <string name="kyc_man">Male</string>
+    <string name="kyc_female">Female</string>
+
+    <string name="kyc_in_review_tips">In review, please wait！</string>
+    <string name="kyc_fail_tips">KYC failure！</string>
+
+    <string name="kyc_error_tips">No data yet, click to try again！</string>
+
+    <string name="kyc_edit_name_hint">Input name</string>
+    <string name="kyc_edit_firstname_hint">Input first name</string>
+    <string name="kyc_edit_lastname_hint">Input last name</string>
+    <string name="kyc_edit_country_hint">Input country</string>
+    <string name="kyc_edit_bornyearmonthday_hint">Select birthday</string>
+    <string name="kyc_edit_postal_code_hint">Input postal code</string>
+    <string name="kyc_edit_address_hint">Input address</string>
+    <string name="kyc_edit_phone_hint">Input phone No</string>
+    <string name="kyc_edit_sex_hint">Select gender</string>
+    <string name="kyc_edit_type_hint">Select document type</string>
+    <string name="kyc_edit_number_hint">Input id number</string>
+    <string name="kyc_edit_mail_hint">Input email address</string>
+
+
+    <!--时间选择器-->
+    <string name="pickerview_cancel">Cancel</string>
+    <string name="pickerview_submit">Confirm</string>
+    <string name="pickerview_year">Y</string>
+    <string name="pickerview_month">M</string>
+    <string name="pickerview_day">D</string>
+    <string name="pickerview_hours">H</string>
+    <string name="pickerview_minutes">M</string>
+    <string name="pickerview_seconds">S</string>
+
+    <!--预订-->
+    <string name="booking_requst">Booking request</string>
+    <string name="booking_cancel">Cancel</string>
+    <string name="booking_canceled">Canceled</string>
+    <string name="booking_leave">Leave</string>
+
+    <string name="wrong_keystore_format">Wrong keystore format！</string>
+    <string name="error_check_in_after_check_out">The check-in date should not be later than the
+        check-out date！
+    </string>
+    <string name="error_check_in_check_out_same_day">The check-in and check-out dates cannot be the
+        same day！
+    </string>
+
+    <string name="price_from">From%1$s</string>
+    <string name="charge">Charge</string>
+    <string name="payment_setting">Payment Setting</string>
+    <string name="please_input">Please input</string>
+    <string name="price">Price</string>
+    <string name="price_include_tax">Price(Including tax)</string>
+    <string name="book">BOOK</string>
+    <string name="book0">Book</string>
+    <string name="room_id">Room ID：</string>
+    <string name="customer_name">Customer name</string>
+    <string name="cert_type">Cert type</string>
+    <string name="cert_number">Cert Number</string>
+    <string name="pls_select">Please selcet</string>
+    <string name="book_success">Book Success</string>
+    <string name="pls_input_customer_name">Please input customer name</string>
+    <string name="pls_select_cert_type">Please select cert type</string>
+    <string name="pls_input_cert_no">Please input cert number</string>
+
+
+    <string name="scan">Scan</string>
+
+    <string name="meeting_room">Meeting Room</string>
+    <string name="work_place">Work Place</string>
+    <string name="express_box">Express Box</string>
+    <string name="homestay">Homestay</string>
+    <string name="product_list">Product List</string>
+    <string name="booking">Booking</string>
+    <string name="owner_info">Owner Info</string>
+    <string name="report">Report</string>
+
+    <string name="share">Share</string>
+    <string name="in_request">In Booking Process</string>
+    <string name="checked_out">Checked out</string>
+    <string name="checked_in">Checked in</string>
+    <string name="to_check_in">To Check In</string>
+    <string name="total_assets">Total Assets</string>
+    <string name="new_space">New Space</string>
+    <string name="host">Host:</string>
+    <string name="per_night">PER NIGHT</string>
+    <string name="may_like">You may alse like</string>
+    <string name="guest_number">NUMBER OF GUESTS</string>
+    <string name="adults">Adults</string>
+    <string name="children">Children</string>
+    <string name="infants">Infants</string>
+    <string name="list">List view</string>
+    <string name="map">Map</string>
+    <string name="key">Key</string>
+    <string name="category">Category</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="bcl_money">BCL Money</string>
+    <string name="card_list">Card List</string>
+    <string name="bind">bind</string>
+    <string name="bind_card">Bind Card</string>
+    <string name="show_assets">Show Assets</string>
+    <string name="add_wallet">Add Wallet</string>
+
+    <!--  英文太长 使用三个M 简写月份   -->
+    <string name="date_format">MMM d</string>
+    <string name="date_format_long">EEEE,dd,MMMM,yyyy</string>
+    <string name="date_format_year_month">MMMM,yyyy</string>
+    <string name="date_format_year_month_day">dd,MMMM,yyyy</string>
+    <string name="your_location">Your location</string>
+    <string name="holder_name">Holder Name</string>
+    <string name="create_wallet_hint">BCL wallet is a wallet to manage various assets which are
+        issued on BCL Chain. It will include points, e-moneys, cryptocurrencies in the near future.
+        As of May 2019, BCL Point can be managed with this wallet.
+    </string>
+
+    <string name="trans_detail">Transaction Details</string>
+    <string name="sure_to_cancel">Are you sure you want to cancel this order?</string>
+
+
+    <string name="receipt">RECEIPT</string>
+    <!--added in 2019/08/08-->
+    <string name="select_guest_amount_title">Select guest amount</string>   <!-- 选择住宿人数-->
+    <string name="guest_is_oneself">Are you the guest？</string>  <!-- 客人是本人吗-->
+    <string name="yes">Yes</string>  <!-- 是的-->
+    <string name="not">No</string>  <!-- 不是-->
+    <string name="guest_amount">Guest amount</string>  <!-- 客人人数-->
+
+    <string name="input_order_manually">Input order manually</string>  <!-- 手动输入预订编号-->
+    <string name="select_from_list">Please select from the list</string>  <!-- 从列表中选择-->
+    <string name="address">Address</string>  <!-- 地址-->
+    <string name="gender">Gender</string>  <!-- 性别-->
+
+
+    <!--added in 2019/08/19-->
+    <string name="no_kyc_title">No KYC information found</string>  <!-- 您的身份证件尚未提交-->
+    <string name="start_kyc_hint">Do you want to start kyc verify?It takes about 5 min.
+    </string>  <!-- 是否要启动验证步骤？ 大约需要五分钟-->
+    <string name="no">No</string>  <!-- 不-->
+
+    <string name="subscribe_id">Reservation id</string>  <!-- 预定号-->
+    <string name="input_subscribe_info_hint">Please enter your reservation number and name of the
+        person who made the reservation
+    </string>  <!-- 请输入您的预订号码和预订者的姓名-->
+
+    <string name="go_to_front_for_check_in">Please go to the reception desk for checking in .
+    </string>  <!-- 请您到前台进行入住-->
+
+    <string name="confirm_id_pwd_hint">Please type in the supported register id and pin in your
+        email.
+    </string>  <!-- 请输入确认电子邮件中提供的预订编号和 PIN-->
+
+    <string name="check_info_hint">Please check user name.\nIs that %1$s？\nClick here.
+    </string>  <!-- 请检查预订者的姓名。那不是肯吗？点击此处 PIN-->
+
+    <string name="get_subscribe_info">Get reservation information</string>  <!-- 获取预订信息-->
+
+    <string name="check">Check</string>  <!-- 检查-->
+
+    <string name="title_have_many_rooms">I have ordered many rooms</string>  <!-- 我预订了多个房间-->
+    <string name="hint_select_which_room">Which room do you prefer？</string>  <!-- 你入住哪个房间？-->
+    <string name="are_you_the_guest">Are you the guest？</string>  <!-- 此应用程序的用户是来宾本人吗？-->
+
+
+    <string name="finish_check_in_input_peer_info">Input your peer information
+    </string>  <!-- 完成迁入，输入第一个同伴信息？-->
+    <string name="full_name">Your full name</string>  <!-- 您的全名-->
+    <string name="passport_info">Passport information(exclude Japanese)
+    </string>  <!-- 护照信息（日本人除外）-->
+    <string name="confirm_info">Confirm</string>  <!-- 确认信息-->
+
+    <string name="check_in_time">Check in time:%1$s</string>  <!-- 入住时间-->
+    <string name="guest_name">Guest name:%1$s</string>  <!-- 入住人姓名-->
+    <string name="guest_count">Guest amount:%1$s</string>  <!-- 入住人数-->
+    <string name="tel">Tel %1$s</string>  <!-- 电话-->
+    <string name="filter">Type</string>  <!-- 筛选-->
+    <string name="all">All</string>  <!-- 全部-->
+
+    <string name="lock_success">Lock Success</string>
+    <string name="close_lock">Close</string>
+    <string name="receive_key">Receive key</string>
+    <string name="pls_input_share_code">input share code</string>
+    <string name="pls_paste">Please paste share code</string>
+
+    <string name="amount_unit">Quantity</string>
+    <string name="kyc">Authentication</string>
+
+    <string name="check_in_success">Check in success</string>
+    <string name="check_out_success">Check out success</string>
+    <string name="close">☓Close</string>
+    <string name="check_in_sc_hint">You can go straight to the room</string>
+    <string name="check_in_sc_hint_no_kyc">By conducting KYC process, your check-in process will be
+        streamlined at the front desk.
+    </string>
+    <string name="go_to_kyc">Go to online KYC process now.</string>
+
+    <string name="sure_to_check_out">Are you sure to check out？</string>
+    <string name="reserve_time">Reservation date</string>
+    <string name="content">Content</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="total">Total</string>
+    <string name="receipt_id">Receipt number</string>
+    <string name="receipt_date">Receipt date</string>
+
+    <string name="product_name">Name</string>
+    <string name="select_products">⊕Select Product</string>
+
+    <string name="upload_peer_info_hint">*Please upload the photo of your ID card.</string>
+    <string name="peer_index">companion %1$s</string>
+    <string name="input_peer_name_hint">Please type in your name</string>
+    <string name="peer_name_hint">Your name</string>
+
+    <string name="night_index">%1$s night</string>
+    <string name="create_invoice">Write an invoice</string>
+    <string name="room_type">Room Type</string>
+
+    <string name="thank_you">THANK YOU</string>
+    <string name="pay_received">Your payment has been received</string>
+    <string name="transaction_id">Transaction ID</string>
+    <string name="done">Done</string>
+
+    <string name="paid">Paid</string>
+    <string name="not_paid">Booking Not Paid</string>
+
+    <string name="keybox_paynow">Payment pending</string>
+    <string name="keybox_checkin">Ready for check-in</string>
+    <string name="keybox_checkout">Checked-in</string>
+    <string name="keybox_leave">Checked-out</string>
+    <string name="keybox_unarrive">No show</string>
+    <string name="keybox_canceled">Canceled</string>
+
+    <string name="receive_succeed">Receive Succeed</string>
+
+    <string name="no_lock_find_hint">No lock found ,please get close to the door</string>
+
+    <string name="check_update">Checking update</string>
+    <string name="no_new_version">This is the latest version</string>
+
+    <string name="select_check_out_date">Proceed to check out date</string>
+
+    <string name="invoice_created">Invoice create succeed</string>
+
+    <string name="cancel_succeed">Cancel succeed</string>
+    <string name="previous">previous</string>
+
+    <string name="check_out_hint_unpaid">You still have a balance due, please go to the front desk
+        before you leave.
+    </string>
+    <string name="reserve_pwd">Reservation Password</string>
+    <string name="pin_not_get">The lock has not been delivered yet, please try again later.</string>
+
+    <string name="bluetooth_not_open_title">"Yolo Hotel"would like to use Bluetooth for new
+        connections
+    </string>
+    <string name="bluetooth_not_open_msg">Please enable Bluetooth.</string>
+    <string name="bluetooth_not_open_setting">Settings</string>
+    <string name="bluetooth_not_open_cancel">Close</string>
+
+    <string name="night">night</string>
+    <string name="room_full">[No Room]</string>
+    <string name="check_room_list">Check Room List</string>
+
+    <string name="check_in_success_without_pay">Please stop at the hotel reception</string>
+
+    <string name="sure_exit">Sure To Logout?</string>
+
+    <string name="include_tax">Including Tax</string>
+
+    <string name="cancel_policy">Cancel Policy</string>
+
+    <string name="commodity_select">Please select goods</string>
+
+    <string name="cancel_policy_title">The cancellation policy and current status of this hotel are
+        as follows.
+    </string>
+    <string name="time_before_check_in">Today is days before the stay</string>
+    <string name="detailed_policy">1 week ago Free\n50% before the day\n100% before 1 day</string>
+
+    <string name="pay_info">Payment information</string>
+    <string name="last_4_numbers">Last four numbers</string>
+    <string name="change">Change</string>
+
+
+    <string name="stripe_support_card">Visa、Mastercard、American Express、JCB、Diners Club、Discover
+        supported
+    </string>
+    <string name="stripe_card_exists">Card already bound.</string>
+
+    <string name="stripe_card_not_supported">Your card is not supported.</string>
+
+    <string name="delete_payment_method">Delete Payment Method?</string>
+
+    <string name="dialog_confirm_cancel">Confirm</string>
+    <string name="dialog_back">Back</string>
+    <string name="dialog_close">Close</string>
+
+    <string name="modify_phone">Modify phone number</string>
+    <string name="modify_phone_check_account_hint">To modify your phone number,we need to check your
+        account first.
+    </string>
+    <string name="modify_phone_check_account_button">Continue to modify</string>
+    <string name="modify_phone_confirm_button">Confirm to modify</string>
+    <string name="priority_wallet">Priority deduction from wallet</string>
+    <string name="point_cost">Cost point:%1$s</string>
+    <string name="point_left">Left:%1$s point</string>
+    <string name="check_out_time_reserve">CHECK OUT</string>
+    <string name="check_in_time_reserve">CHECK IN</string>
+    <string name="room_name">Suite No: %1$s</string>
+
+
+    <!--    最低预约时间等-->
+    <string name="unit_hour">Hours</string>
+    <string name="unit_day">Days</string>
+    <string name="min_reserve_time">Minimum reserve time %1$s %2$s</string>
+    <string name="min_choose_time_again">Minimum reserve time is %1$s %2$s,please select the correct
+        time.
+    </string>
+    <string name="only_same_day">You can only reserve in the same day.</string>
+    <!--    该房间只能预约同一天，请重新选择时间-->
+    <!--    最低预约时间1天，请重新选择时间-->
+
+    <string name="login_ble_error">This key is invalid .Please check.</string>
+    <string name="order_out_of_time">Out of reservation time
+    </string> <!--  Out of reservation time-->
+
+    <!--    0，未发行  1，正在发行  2，成功下发  3，已失效-->
+    <string name="pin_status_not_delivered">Pin not delivered</string>
+    <string name="pin_status_delivering">Delivering</string>
+    <string name="pin_status_delivered">Pin delivered</string>
+    <string name="pin_status_invalid">Pin invalid</string>
+
+    <string name="agreement">Agreement</string>
+    <string name="agreement_agree">agree</string>
+
+    <string name="per_day">day</string>
+    <string name="whole_day_available">Whole Day Available</string>
+    <string name="confirm_cancel_subscription">Confirm to cancel subscription?</string>
+
+    <!--    订阅-->
+    <string name="subscription">Subscription</string>
+    <string name="subscription_price_unit">Per Month</string>
+    <string name="subscription_apply">Apply</string>
+    <string name="subscription_hint">This subscription service will be available after approved by
+        it\'s owner.
+    </string>
+    <string name="message">Message</string>
+    <string name="subscription_need_kyc">To apply for this subscription ,we need to verify your
+        identification.Please go to \"Mine\" - \"Kyc\" to verify your identification.
+    </string>
+    <string name="subscription_management">Subscription Management</string>
+    <string name="subscription_none_hint">No available Subscription</string>
+    <string name="subscription_waiting_for_approve">Waiting for approve</string>
+    <string name="subscription_in_use">In use</string>
+    <string name="subscription_denied">Denied</string>
+    <string name="subscription_cancel1">Cancel</string>
+    <string name="subscription_cancel">Cancel</string>
+    <string name="subscription_expire">Canceled</string>
+    <string name="subscription_inuse_expire">In use(canceled)</string>
+    <string name="subscription_cancel_hint">Are you sure to cancel  {}？</string>
+    <string name="subscription_apply_date">Apply date:</string>
+    <string name="subscription_apply_date1">Apply date</string>
+
+    <string name="subscription_apply_approve_date">Approve date:</string>
+    <string name="subscription_apply_approve_date1">Approve date</string>
+    <string name="subscription_apply_cancel_date">Cancel due date:</string>
+    <string name="subscription_detail">Subscription Detail</string>
+    <string name="subscription_name">Subscription Name</string>
+    <string name="subscription_name1">Subscription Name：</string>
+    <string name="subscription_id">Subscription Id</string>
+    <string name="subscription_receipt_usage">Usage</string>
+    <string name="subscription_as_fee">As subscription fee</string>
+    <string name="subscription_total">Total</string>
+    <string name="subscription_complete">Subscribe succeed</string>
+
+    <string name="subscription_usetime">Time:</string>
+    <string name="subscription_receipt_month">Month</string>
+    <string name="subscription_request_day">Request Date</string>
+    <string name="subscription_receipt_detail">Detail</string>
+
+    <string name="use_time">Time</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="tax">Tax</string>
+    <string name="inner_tax">(Contains tax %1$s 円)</string>
+    <string name="edit_name">Edit Name</string>
+    <string name="option_item_name">Option Items</string>
+    <string name="lady_or_gentleman">%1$s</string>
+    <string name="use_type">Used for %1$s</string>
+    <string name="bcl_company_and_address">ブロックチェーンロック株式会社\n東京都千代田区内幸町１−３−１</string>
+
+    <string name="out_of_use_time">Unavailable</string>
+
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+
+    <!--    strings-kiw-->
+
+    <string name="kiw_vip">Member Management</string>
+
+    <string name="per_hour">PER HOUR</string>
+
+    <string name="place_search">Search for hotels</string>
+
+    <string name="member_service_in_use">In use</string>
+    <string name="member_service_not_applied">Not Applied</string>
+
+    <string name="member_service_in_use_detail">Service In Use</string>
+    <string name="member_service_not_applied_detail">Service is not applied now</string>
+
+    <string name="sure_to_cancel_member_service">Are you sure you want to cancel this
+        subscription？
+    </string>
+    <string name="sure_to_buy_member_service">The cost of %1$s is %2$s。 Are you sure to buy it？
+    </string>
+    <string name="subscribe">Apply</string>
+    <string name="subscribe_succeed">Apply succeed</string>
+    <string name="cancel_subscribe">Cancel</string>
+    <string name="cancel_subscribe_succeed">Cancel succeed</string>
+
+
+    <string name="take_face_photo">Please take a photo of your face.</string>
+    <string name="take_card_front_photo">Please put your card\'s font side up to you and take a
+        photo of it.
+    </string>
+    <string name="take_card_back_photo">Please put your card\'s back side up to you and take a photo
+        of it.
+    </string>
+
+    <string name="no_specific_card_hint">If you do not have driving license or passport, please
+        click here.
+    </string>
+    <string name="student_entry_hint">Verification cost about 1 work day</string>
+
+
+    <string name="using_member_service">%1$s</string>
+    <string name="can_use_member_service">%1$s</string>
+    <string name="time_is_unavailable">Time is unavailable.</string>
+
+    <string name="reserve_no_kyc_hint">You may need to verify your identification before check
+        in.Please go to "Mine-KYC" to check it.\n • If your identification verification has not been
+        finished,you will not be able to check in.
+    </string>
+
+    <string name="rental_space">Rental Space</string>
+    <string name="shared_workspace">Shared workspace</string>
+
+    <string name="using_gesture_password">Using Gesture Password</string>
+
+    <string name="same_day_with_checkin">Same day with checkIn date</string>
+    <string name="same_time_with_checkin">Same time with checkIn time</string>
+    <string name="day_before"> day before </string>
+    <string name="time_before"> hours before </string>
+    <string name="free">(Free)</string>
+    <string name="lady_or_gentleman_sub">様</string>
+    <string name="used_place">Used place</string>
+    <string name="commodity_number">Commodity number</string>
+
+    <string name="unit_jpy">JPY</string>
+
+    <string name="cant_delete_hint">You have unfinished orders , you can not delete this card.
+    </string>
+    <string name="copy_wallet_address">Copy Payment Address</string>
+    <string name="send_bcl">Send</string>
+    <string name="send_wallet_money">Send %1$s</string>
+
+    <string name="back">Back</string>
+    <string name="select">Select</string>
+    <string name="plan_name">Plan name</string>
+    <string name="commodity_already_added">The commodity has already been added</string>
+    <string name="commodity_name">Commodity name</string>
+
+    <!--修改手机号相关-->
+    <string name="area">area</string>
+
+    <!--    wallet迁移-->
+    <string name="pls_input_content">Please input content</string>
+    <string name="receive_key_password">Password</string>
+    <string name="phone_no">Phone Number</string>
+</resources>
