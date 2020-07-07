@@ -89127,13 +89127,12 @@ Z.hj("areacode",q)
 Z.hj("country",a.b)
 return P.q(null,r)}})
 return P.r($async$w5,r)},
-iL:function(){var s=0,r=P.t(t.z),q
+iL:function(){var s=0,r=P.t(t.z)
 var $async$iL=P.k(function(a,b){if(a===1)return P.p(b,r)
-while(true)switch(s){case 0:s=2
+while(true)switch(s){case 0:P.I("\u767b\u5f55\u6210\u529f\u540esetupUid")
+s=2
 return P.o(F.de(),$async$iL)
-case 2:q=b
-P.I("\u767b\u5f55\u6210\u529f\u540esetupUid")
-q.toString
+case 2:b.toString
 P.I(Z.dd("uid"))
 s=3
 return P.o(O.BH(Z.dd("uid")),$async$iL)
