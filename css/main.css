@@ -1113,9 +1113,9 @@ pre .javascript .function {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
-  margin-top: 10px;
+  margin-top: 0px;
   font-size: 13px;
-  color: #999;
+  color: #666;
 }
 .use-motion .brand {
   opacity: 0;

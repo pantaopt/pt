@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="theme-next muse use-motion" lang="zh-Hans">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,12 +13,13 @@
     rel="stylesheet" type="text/css">
   <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
   <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
+  <link href="/css/index.css" rel="stylesheet" type="text/css" />
   <meta name="keywords" content="Hexo, NexT" />
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2" />
   <meta name="description" content="pantao’s frist blog">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="pantao">
-  <meta property="og:url" content="http://yoursite.com/2017/08/18/pantao/index.html">
+  <meta property="og:title" content="Pantao">
+  <meta property="og:url" content="http://yoursite.com/2020/12/23/年终总结/index.html">
   <meta property="og:site_name" content="pantao&#39;s blog">
   <meta property="og:description" content="pantao’s frist blog">
   <meta property="og:locale" content="zh-Hans">
@@ -47,9 +49,10 @@
       }
     };
   </script>
-  <link rel="canonical" href="http://yoursite.com/2017/08/18/pantao/" />
+  <link rel="canonical" href="http://yoursite.com/2020/12/23/年终总结/" />
   <title>Pantao | Pantao Blog</title>
 </head>
+
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
   <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
@@ -105,9 +108,9 @@
             <div id="posts" class="posts-expand">
               <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
                 <div class="post-block">
-                  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/08/18/pantao/">
+                  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/12/23/年终总结/">
                   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-                    <meta itemprop="name" content="pantao">
+                    <meta itemprop="name" content="Pantao">
                     <meta itemprop="description" content="">
                     <meta itemprop="image" content="/images/avatar.gif">
                   </span>
@@ -115,21 +118,74 @@
                     <meta itemprop="name" content="Pantao Blog">
                   </span>
                   <header class="post-header">
-                    <h1 class="post-title" itemprop="name headline">pantao</h1>
+                    <h1 class="post-title" itemprop="name headline">2020年终总结</h1>
                     <div class="post-meta">
                       <span class="post-time">
                         <span class="post-meta-item-icon">
                           <i class="fa fa-calendar-o"></i>
                         </span>
                         <span class="post-meta-item-text">发表于</span>
-                        <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-18T10:44:50+08:00">
-                          2017-08-18
+                        <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-12-23T10:44:50+08:00">
+                          2020-12-23
                         </time>
                       </span>
                     </div>
                   </header>
                   <div class="post-body" itemprop="articleBody">
-                    <p>Pantao’s frist blog</p>
+                    <div class="pt_preface">2020年是要载入史册的一年。凡是过往，皆为序章，从今回顾2020，写下该篇年度总结，而今迈步从头越。</div>
+
+                    <h1 class="pt_section">工作成果</h1>
+                    <img src="/images/apps.png"/>
+                    <div class="pt_small_footer">目前Appstore所有在线App产品</div>
+                    <li class="pt_small_title">Keyvox Go</li>
+                    <div class="pt_content">升级、维护，房型列表、place检索等页面已集成Flutter模块。</div>
+                    <li class="pt_small_title">Keyvox Basic</li>
+                    <div class="pt_content">维护。</div>
+                    <li class="pt_small_title">Mykeyvox</li>
+                    <div class="pt_content">升级、维护。</div>                 
+                    <li class="pt_small_title">Mykeyvox-web</li>
+                    <div id="iLoading" style="width:100px; height:100px;">
+                      <iframe src="/images/bookingxLoader.svg" style="width:100px; height:100px; border: medium none;"></iframe>
+                    </div> 
+                    <div class="pt_content">2020年一款全新的产品。由Flutter web打造。</div>
+                    <div class="pt_content"></div>
+
+                    <h1 class="pt_section">个人项目</h1>
+                    <li><a class="pt_link" href="https://apps.apple.com/cn/app/%E9%9B%B6%E5%88%BB/id1530040638#?platform=iphone" target="_blank">零刻</a></li>
+                    <div class="pt_content">iOS由纯Swift编写(内集成UPush SDK)</div>
+                    <div class="pt_content">后端由Springboot框架完成</div>
+                    <div class="pt_content">MQTT服务器使用Emqx</div>
+
+                    <h1 class="pt_section">技术</h1>          
+                    <li class="pt_small_title">Flutter</li> 
+                    <div class="pt_content">2020年是Flutter迭代快速也是趋于稳定的一年，越来越多的终端、前端开发者投身其中。其跨平台UI的统一性、hot-reload给开发带来的提效都是让人感知最为明显的。但是也存在诸多不足，如随着官方日渐迭代，衍生出很多缺陷与bug；与原生硬件交互仍需原生技术支持；无法热更新、热修复等，但Flutter仍旧是很多人愿意投身学习与使用，甚至是上生产的框架。</div>
+                    <div class="pt_content">2020年，Mykeyvox由纯Flutter打造，我们从2020年6月3日创建仓库开始，至今已产生159个commits、13个分支。已经实现生产上线多个版本。</div>
+                    <div class="pt_content">Mykeyvox-web由2020年七月份开始，基于Mykeyvox的整体架构与产品业务逻辑进行衍生开发，适配移动端、PC端，目前已发布RC(预览版)。</div>
+                    <li class="pt_small_title">Swift</li>
+                    <div class="pt_content">目前公司项目全是纯OC开发，只有极少数第三方库(例如区块链相关)引入Swift，因此为了可以充分断连Swift，我编写了个人的一款App<a class="pt_link" href="https://apps.apple.com/cn/app/%E9%9B%B6%E5%88%BB/id1530040638#?platform=iphone" target="_blank">零刻</a></div>
+                    <li class="pt_small_title">后端</li>
+                    <div class="pt_content"><a class="pt_link" href="https://apps.apple.com/cn/app/%E9%9B%B6%E5%88%BB/id1530040638#?platform=iphone" target="_blank">零刻</a>的后端是个人独立完成，因此后端技术方面，浅尝辄止的做出了一款可上线产品。</div>
+                    <li class="pt_small_title">前端</li>
+                    <div class="pt_content">2020年，前端触及极少。</div>
+                    <li class="pt_small_title">设计</li>
+                    <div class="pt_content"><a class="pt_link" href="https://apps.apple.com/cn/app/%E9%9B%B6%E5%88%BB/id1530040638#?platform=iphone" target="_blank">零刻</a>的图标是个人独立设计，使用的Sketch，也只是简单的使用Sketch，严格来说算不上是设计，但也算一个独立做产品的一个关键环节。</div>
+                    
+                    <h1 class="pt_section">回望2020（总结）</h1>
+                    <li class="pt_small_title">工作输出</li>
+                    <div class="pt_content">多款App上线并维护</div>
+                    <div class="pt_content">Mykeyvox-web研发</div>
+                    <li class="pt_small_title">技术输出</li>
+                    <div class="pt_content">Flutter方面投入较多，因此相较于其他技术领域、开发语言，Flutter甚至Dart有所建树，内网Gitlab已参与多项仓库的建设。</div>
+                    <div class="pt_content">后端开发有所涉猎，java初触皮毛，数据库初触皮毛，独立完成<a class="pt_link" href="https://apps.apple.com/cn/app/%E9%9B%B6%E5%88%BB/id1530040638#?platform=iphone" target="_blank">零刻</a>后端</div>
+                    <div class="pt_content">Swift这门开发语言的后起之秀、苹果的官方开源语言，相较于OC吸收了很多函数式编程的优势，编程思维与OC相比，更是具有跳跃性。2020年虽有上线产品输出，但仍需投入深习。</div>
+
+                    <h1 class="pt_section">展望</h1>
+                    <li class="pt_small_title">工作产品</li>
+                    <div class="pt_content">能有更好设计、易用的产品App可以推出</div>
+                    <div class="pt_content">可以优化、甚至再设计现存产品，尤其是在UI、UX、UE等方面</div>
+                    <li class="pt_small_title">技术方面</li>
+                    <div class="pt_content">一直以来的思想是：自己的本职领域深扎，因此未来仍是继续深研iOS领域。更多精力会投入到Swift语言、音视频、OpenGL、Core ML等未接触过的领域</div>
+                    <div class="pt_content">其他兴趣使然的方向会更侧重于大前端，而后是后端</div>
                   </div>
                   <footer class="post-footer">
                   </footer>
@@ -153,14 +209,14 @@
           <div class="sidebar-inner">
             <section class="site-overview sidebar-panel sidebar-panel-active">
               <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="pantao" />
-                <p class="site-author-name" itemprop="name">pantao</p>
+                <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="Pantao" />
+                <p class="site-author-name" itemprop="name">Pantao</p>
                 <p class="site-description motion-element" itemprop="description">mail:pantao@pantao.org.cn</p>
               </div>
               <nav class="site-state motion-element">
                 <div class="site-state-item site-state-posts">
                   <a href="/archives/">
-                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -176,11 +232,11 @@
       <div class="footer-inner">
         <div class="copyright">
           &copy;
-          <span itemprop="copyrightYear">2017</span>
+          <span itemprop="copyrightYear">2020</span>
           <span class="with-love">
             <i class="fa fa-heart"></i>
           </span>
-          <span class="author" itemprop="copyrightHolder">pantao</span>
+          <span class="author" itemprop="copyrightHolder">Pantao</span>
         </div>
       </div>
     </footer>
@@ -188,11 +244,6 @@
       <i class="fa fa-arrow-up"></i>
     </div>
   </div>
-  <script type="text/javascript">
-    if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-      window.Promise = null;
-    }
-  </script>
   <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
   <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
   <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
@@ -205,4 +256,5 @@
   <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
   <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
 </body>
+
 </html>
