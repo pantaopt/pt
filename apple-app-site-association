@@ -1,7 +1,4 @@
 {
-  "appclips": {
-       "apps": [ "AXN7MM93V4.com.blockchain.dev.Clip" ]
-   },
   "applinks": {
     "apps": [
       
@@ -9,12 +6,6 @@
     "details": [
       {
         "appID": "AXN7MM93V4.com.blockchain.dev",
-        "paths": [
-          "*"
-        ]
-      },
-      {
-        "appID": "ABCD1234.com.apple.wwdc",
         "paths": [
           "*"
         ]
